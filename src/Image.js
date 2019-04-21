@@ -109,9 +109,9 @@ class Image extends Component {
                 transform: rotationTransformValue
             };
         }
+
         return {
             cursor: 'pointer',
-            width: this.props.item.scaletwidth,
             height: this.props.height,
             marginLeft: this.props.item.marginLeft,
             marginTop: 0,
